@@ -7,8 +7,8 @@ import nltk
 
 app = Flask(__name__)
 
-# nltk.download('punkt')
-# nltk.download('vader_lexicon')
+nltk.download('punkt')
+nltk.download('vader_lexicon')
 
 
 @app.route("/predict", methods=["GET"])
